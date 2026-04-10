@@ -31,7 +31,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import me.abrahamcaceres.exploracolombiaapp.ui.theme.ExploraColombiaAppTheme
-import me.fabiansuarez.exploracolombia.ui.theme.ExploraColombiaTheme
 
 @Composable
 fun RegisterScreen(
@@ -69,7 +68,7 @@ fun RegisterScreen(
             ) {
                 Icon(
                     imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                    contentDescription = stringResource(id = R.string.back_button),
+                    contentDescription = null,
                     tint = primaryOrange
                 )
             }
